@@ -19,3 +19,7 @@ jobs:
       
     - name: hello-action
       uses: ./github/actions/hello-world
+      with:
+        firstGreeting: Hello
+        secondGreeting: Hello1
+        thirdGreeting: Hello3
